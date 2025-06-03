@@ -1,3 +1,112 @@
+# 🌮 EFood — Fast Food Delivery Service
+
+A web project for a food delivery service with a modern, responsive interface. Implemented using HTML5 and CSS3, without frameworks. The layout is based on a design from Figma. <br>
+
+https://www.figma.com/design/hfUiLM5jKcv6oCX6NXH5uh/eFoodWebdesign--Copy-?node-id=0-1&t=kaVu5gb8VA6XYUQb-0
+
+---
+
+## 📁 Project Structure
+
+```
+/
+├── index.html         # Main HTML page
+├── style.css          # Project's main styles
+└── img/               # Images 
+```
+
+---
+
+## 🧩 HTML Structure (`index.html`)
+
+### 🔹 `<header class="site-header">`
+- Top navigation with logo, burger button, navigation links and actions (search, cart, Sign Up).
+- Mobile adaptation via checkbox and pseudo-button.
+
+### 🔹 `<main>`
+#### Section `.hero`
+- Main headline with CTA (Explore Food / Download App).
+- Delivery image on the right side.
+
+#### Section `.food-delivery-section`
+- Left: image.
+- Right: text and features (icons + descriptions).
+
+> ✅ HTML is semantically structured using `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`.
+
+---
+
+## 🎨 CSS Structure (`style.css`)
+
+### 📌 General Settings
+- Fonts: Google Fonts (`Rubik`)
+- Color palette:
+  - Background: `#f5f6f8`
+  - Text: `#363853`
+  - Accents: `#FF7A50`, `#ff7757`
+- Box-sizing: `border-box` for all elements.
+
+### 🔹 Header
+- Flexbox alignment.
+- Mobile menu at `max-width: 992px`:
+  - Animated burger button.
+  - Menu expands on click.
+
+### 🔹 Hero Section
+- Two blocks: text and image.
+- Responsive `font-size` via `clamp()`.
+- Flex → Column on mobile.
+
+### 🔹 Food Delivery Section
+- Two blocks: image and content.
+- Features list with icons (SVG).
+- Centered content for screens <992px.
+
+---
+
+## 📱 Responsiveness
+
+- Media queries for `1200px`, `992px`, `768px`, `576px`, `480px`.
+- `clamp()` used for scalable font sizes.
+- Mobile version: burger menu, vertically stacked blocks, reduced spacing and font sizes.
+
+---
+
+## 📌 Features
+
+- ✅ Clean, valid HTML5/CSS3
+- ✅ No JS (menu works via checkbox)
+- ✅ Fully responsive design
+- ✅ Modern UI, similar to mobile apps
+
+---
+
+## 📸 Screenshots
+
+![image](https://github.com/user-attachments/assets/70f9e129-8765-4b13-a473-323a7156f3a6)
+
+---
+
+## 👨‍💻 Author
+
+**Volodymyr Shevchenko**  --------- https://github.com/mewnityy
+
+---
+
+## 📄 License
+
+Free for educational use. Please credit the author if shared publicly.
+
+---
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 # 🌮 EFood — Сервіс Швидкої Доставки Їжі
 
 Веб-проєкт для сервісу доставки їжі з сучасним, адаптивним інтерфейсом. Реалізований за допомогою HTML5 та CSS3, без використання фреймворків. Макет створений на основі дизайну з Figma. <br>
